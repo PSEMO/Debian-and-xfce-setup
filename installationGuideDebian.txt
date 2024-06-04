@@ -1,0 +1,16 @@
+﻿Install xfce
+
+su
+sudo visudo
+add “psemo ALL=(ALL:ALL)	ALL”
+
+go to ~/.config/ and replace xfce4 folder
+restart
+
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+restart
+
+flatpak install flathub com.brave.Browser; flatpak install flathub com.discordapp.Discord; flatpak install flathub com.valvesoftware.Steam; flatpak install flathub org.mozilla.Thunderbird; flatpak install flathub com.spotify.Client; flatpak install flathub com.microsoft.Edge; sudo apt install neofetch; sudo apt install xtrlock; sudo apt install bluez blueman;
+
+
