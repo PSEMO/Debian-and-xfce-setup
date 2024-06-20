@@ -20,31 +20,14 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-A-0" type="string" value="LG 7&quot;">
+    <property name="HDMI-A-0" type="string" value="Philips 27&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="4e8ddad3c59d3e5a2ed3c2ebced664c31d8ffb01"/>
+      <property name="EDID" type="string" value="0bf3dcadbbe0783ebf633e3da71d87f60b147406"/>
       <property name="Resolution" type="string" value="1920x1080"/>
       <property name="RefreshRate" type="double" value="60"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="empty">
-        <property name="X" type="double" value="1"/>
-        <property name="Y" type="double" value="1"/>
-      </property>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
-      </property>
-    </property>
-    <property name="eDP" type="string" value="Laptop">
-      <property name="Active" type="bool" value="false"/>
-      <property name="EDID" type="string" value="d30c0886d3f99904478017a8ea3e6cf7634f85f4"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60.001037631433313"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
+      <property name="Primary" type="bool" value="true"/>
       <property name="Scale" type="empty">
         <property name="X" type="double" value="1"/>
         <property name="Y" type="double" value="1"/>
@@ -73,31 +56,14 @@
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="HDMI-A-0" type="string" value="LG 7&quot;">
+    <property name="HDMI-A-0" type="string" value="Philips 27&quot;">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="4e8ddad3c59d3e5a2ed3c2ebced664c31d8ffb01"/>
+      <property name="EDID" type="string" value="0bf3dcadbbe0783ebf633e3da71d87f60b147406"/>
       <property name="Resolution" type="string" value="1920x1080"/>
       <property name="RefreshRate" type="double" value="60"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="empty">
-        <property name="X" type="double" value="1"/>
-        <property name="Y" type="double" value="1"/>
-      </property>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
-      </property>
-    </property>
-    <property name="eDP" type="string" value="Laptop">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="d30c0886d3f99904478017a8ea3e6cf7634f85f4"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60.001037631433313"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
+      <property name="Primary" type="bool" value="true"/>
       <property name="Scale" type="empty">
         <property name="X" type="double" value="1"/>
         <property name="Y" type="double" value="1"/>

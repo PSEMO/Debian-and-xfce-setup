@@ -13,7 +13,7 @@
       <property name="size" type="uint" value="17"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="18"/>
-        <value type="int" value="11"/>
+        <value type="int" value="1"/>
         <value type="int" value="19"/>
         <value type="int" value="2"/>
         <value type="int" value="9"/>
@@ -35,7 +35,6 @@
         <value type="int" value="14"/>
         <value type="int" value="37"/>
         <value type="int" value="15"/>
-        <value type="int" value="3"/>
       </property>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="span-monitors" type="bool" value="false"/>
@@ -48,6 +47,12 @@
     </property>
   </property>
   <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="button-icon" type="string" value="preferences-desktop-locale"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="small" type="bool" value="false"/>
+    </property>
     <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="bool" value="false"/>
       <property name="show-labels" type="bool" value="true"/>
@@ -70,9 +75,6 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="no network connection"/>
-        <value type="string" value="wi-fi network connection “evangelion” active: evangelion (79%)"/>
-        <value type="string" value="wi-fi network connection “evangelion” active: evangelion (93%)"/>
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
         <value type="string" value="blueman"/>
         <value type="string" value="blueman-tray"/>
@@ -89,9 +91,6 @@
         <value type="string" value="blueman-tray"/>
         <value type="string" value="blueman"/>
         <value type="string" value="ethernet network connection “wired connection 1” active"/>
-        <value type="string" value="wi-fi network connection “evangelion” active: evangelion (79%)"/>
-        <value type="string" value="wi-fi network connection “evangelion” active: evangelion (93%)"/>
-        <value type="string" value="no network connection"/>
       </property>
       <property name="hidden-items" type="array">
         <value type="string" value="steam"/>
@@ -104,7 +103,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="brave.instance12113;brave.instance1517;brave.instance1550;brave.instance1568;brave.instance1579;brave.instance1598;brave.instance1618;brave.instance17960;brave.instance1844;brave.instance1845;brave.instance1878;brave.instance1929;brave.instance2;brave.instance2015;brave.instance20665;brave.instance2067;brave.instance22345;brave.instance2883;brave.instance3624;brave.instance4043;brave.instance4630;brave.instance5818;brave.instance6129;brave.instance6411;brave.instance6901;brave.instance7477;brave.instance8185;brave.instance9594;firefox.instance1221;spotify"/>
+      <property name="mpris-players" type="string" value="brave.instance12113;brave.instance1517;brave.instance1550;brave.instance1568;brave.instance1579;brave.instance1598;brave.instance1618;brave.instance17960;brave.instance1844;brave.instance1845;brave.instance1878;brave.instance1929;brave.instance2015;brave.instance20665;brave.instance2067;brave.instance22345;brave.instance2883;brave.instance3624;brave.instance4043;brave.instance4630;brave.instance5818;brave.instance6129;brave.instance6411;brave.instance6901;brave.instance7477;brave.instance8185;brave.instance9594;firefox.instance1221;spotify"/>
     </property>
     <property name="plugin-10" type="string" value="notification-plugin"/>
     <property name="plugin-12" type="string" value="clock">
@@ -126,7 +125,7 @@
         <value type="string" value="-hybrid-sleep"/>
         <value type="string" value="-separator"/>
         <value type="string" value="+shutdown"/>
-        <value type="string" value="+restart"/>
+        <value type="string" value="-restart"/>
         <value type="string" value="-separator"/>
         <value type="string" value="-logout"/>
         <value type="string" value="-logout-dialog"/>
@@ -159,7 +158,5 @@
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="true"/>
     </property>
-    <property name="plugin-3" type="string" value="battery"/>
-    <property name="plugin-11" type="string" value="whiskermenu"/>
   </property>
 </channel>
